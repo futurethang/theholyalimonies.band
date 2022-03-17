@@ -1,0 +1,129 @@
+:root {
+  --main-green:#52F42D;
+  --main-red: #50080c;
+}
+
+body {
+  background: #181818;
+  /* background-image: url("../images/bg.jpg"); */
+  background-size: 140px;
+  text-align: center;
+}
+.title {
+  color: var(--main-green);
+  font-family: 'Oi', cursive;
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 2rem;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+}
+
+.dickheads {
+  width: 50%;  
+}
+
+.main-image {
+  width: 55%;
+  height: auto;
+  border: 10px solid black;
+}
+.sub-title {
+  margin: 32px 0;
+  font-size: 100px;
+  font-weight: 800;
+  font-family: 'Oswald', sans-serif;
+}
+.links {
+  font-size: 18px;
+  text-transform: capitalize;
+}
+nav > ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+nav > ul > li img {
+  display: block;
+}
+
+ul,
+li {
+  font-family: Consolas, "Andale Mono", "Lucida Console",
+    "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+  color: var(--main-green);
+  font-weight: bold;
+  list-style-type: none;
+  list-style-position: inside;
+  margin: 2px 0;
+  padding: 0;
+}
+
+ul.lineup {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-family: 'Oi', cursive;
+  color: var(--main-green);
+  font-size: 2rem;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+a {
+  color: var(--main-red);
+  font-size: 1.5rem;
+  font-size: 40px;
+  font-weight: 800;
+  font-family: 'Oswald', sans-serif;
+}
+
+p {
+  color: var(--main-green);
+  font-size: 1.5rem;
+  max-width: 80%;
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.release {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  color: var(--main-green);
+}
+
+.release-thumb {
+  width: 200px;
+  border: 5px solid black;
+}
+.louse {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.louse img {
+  height: 150px;
+  width: auto;
+  text-align: center;
+}
+.alert {
+  font-weight: bolder;
+  color: var(--main-red)
+}
+footer {
+  height: 100px;
+  margin-top: 16px;
+  font-family: Consolas, "Andale Mono", "Lucida Console",
+    "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+  color: #999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.rock {
+  margin-top: 2rem;
+  justify-content: center;
+  display: inline-flex;
+  width: 427px;
+}

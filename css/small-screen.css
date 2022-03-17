@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+
+
+@media (max-width: 1000px){
+	h1.title {
+		font-size: 4rem;
+		margin: 8px 0;
+	}
+}
+
+@media (max-width: 700px){
+	h1.title {
+		font-size: 10vh;
+	}
+}
+
+@media (max-width: 550px){
+	h1.title {
+		font-size: 44px;
+		margin: 8px 0;
+	}
+	.sub-title {
+		font-size: 18px;
+	}
+		.main-image {
+		width:80%;
+	}
+}
